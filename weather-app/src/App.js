@@ -30,16 +30,22 @@ class App extends React.Component {
     const country= e.target.elements.country.value;
     const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
     const data = await api_call.json();
-    console.log(data);
-    // Set the values of the initial states to determinate values - no direct manipulation of the state
-    this.setState({
-      temperature: data.main.temp,
-      city: data.name,
-      country: data.sys.country,
-      humidity: data.main.humidity,
-      description: data.weather[0].description,
-      error: "undefined"
-    });
+
+    //prevent throw error when empty state exists in front end and button is clicked
+    if (city && country) {
+      console.log(data);
+      // Set the values of the initial states to determinate values - no direct manipulation of the state
+      this.setState({
+        temperature: data.main.temp,
+        city: data.name,
+        country: data.sys.country,
+        humidity: data.main.humidity,
+        description: data.weather[0].description,
+        error: "undefined"
+      });
+    } else {
+      
+    }
   }
 
   //apply render method to display data
