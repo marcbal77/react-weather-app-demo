@@ -1,5 +1,5 @@
 # react-weather-app-demo
-Creating a weather app with react with "Create React App"
+Creating a weather app with react using "Create React App" for dependencies
 
 
 ``` SQL
