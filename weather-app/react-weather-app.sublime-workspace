@@ -1,0 +1,304 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sq",
+				"square1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './App';\nimport * as serviceWorker from './serviceWorker';\n\nReactDOM.render(<App />, document.getElementById('root'));\n\n// If you want your app to work offline and load faster, you can change\n// unregister() to register() below. Note this comes with some pitfalls.\n// Learn more about service workers: https://bit.ly/CRA-PWA\nserviceWorker.unregister();\n",
+			"file": "src/index.js",
+			"file_size": 452,
+			"file_write_time": 132110042259147537,
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.css",
+			"settings":
+			{
+				"buffer_size": 492,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add r",
+				"Package Control: Add Repository"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/MarcBal77/DEV/Freelance/DemoForReactJob/react-weather-app-demo/weather-app",
+		"/Users/MarcBal77/DEV/Freelance/DemoForReactJob/react-weather-app-demo/weather-app/src"
+	],
+	"file_history":
+	[
+		"/Users/MarcBal77/DEV/Freelance/DemoForReactJob/react-weather-app-demo/weather-app/package.json",
+		"/Users/MarcBal77/DEV/Kaggle/SQLPROGRESS/Relational queries in SQL - SQL Khan Academy",
+		"/Users/MarcBal77/DEV/Kaggle/SQLPROGRESS/SQL basics - SQL Khan Academy",
+		"/Users/MarcBal77/DEV/Kaggle/SQLPROGRESS/SQL Khan Academy",
+		"/Users/MarcBal77/DEV/Kaggle/SQLPROGRESS/Person Resource Andre 5 Billion copy",
+		"/Users/MarcBal77/DEV/Product School/Product-Management/Trunk-Final-Project/trunkInventory.js",
+		"/Users/MarcBal77/DEV/Advent of Code/AdventofCode/2018/01/Day 1.js",
+		"/Users/MarcBal77/DEV/Advent of Code/AdventofCode/2018/README.md",
+		"/Users/MarcBal77/Desktop/console.js",
+		"/Users/MarcBal77/Desktop/Leave Off",
+		"/Users/MarcBal77/DEV/TreeHouse Learning/Full-Stack JavaScript/Vue.js Basics /Vue.js Basics Section 2",
+		"/Users/MarcBal77/DEV/TreeHouse Learning/Full-Stack JavaScript/Vue.js Basics /Vue.js Basics",
+		"/Users/MarcBal77/DEV/TreeHouse Learning/Full-Stack JavaScript/JavaScript and the DOM/JavaScript and the DOM",
+		"/Users/MarcBal77/Desktop/ppp",
+		"/Users/MarcBal77/DEV/Udacity /UdemyES6Essentials/EloquentJSNotes",
+		"/Users/MarcBal77/DEV/Advent of Code/AdventofCode/2017/01/Day 1.js",
+		"/Users/MarcBal77/Desktop/filterapp/package.json",
+		"/Users/MarcBal77/Desktop/filterapp/node_modules/@webassemblyjs/helper-wasm-bytecode/lib/section.js",
+		"/Users/MarcBal77/Desktop/filterapp/readme",
+		"/Users/MarcBal77/Desktop/userdata.js",
+		"/Users/MarcBal77/Desktop/filterapp/src/App.vue"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/MarcBal77/DEV/Freelance/DemoForReactJob/react-weather-app-demo/weather-app"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/App.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/All Hallow's Eve.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
