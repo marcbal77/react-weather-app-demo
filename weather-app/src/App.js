@@ -31,7 +31,7 @@ class App extends React.Component {
     const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
     const data = await api_call.json();
 
-    //prevent throw error when empty state exists in front end and button is clicked
+    //prevent breaking app when empty state exists in front end and button is clicked
     if (city && country) {
       console.log(data);
       // Set the values of the initial states to determinate values - no direct manipulation of the state
@@ -41,10 +41,18 @@ class App extends React.Component {
         country: data.sys.country,
         humidity: data.main.humidity,
         description: data.weather[0].description,
-        error: "undefined"
+        error: ""
       });
     } else {
-      
+      // provide proper error statement to display to user to put a proper input
+      this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Please enter a proper value"
+      });      
     }
   }
 
