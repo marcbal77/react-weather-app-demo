@@ -33,7 +33,6 @@ class App extends React.Component {
 
     //prevent breaking app when empty state exists in front end and button is clicked
     if (city && country) {
-      console.log(data);
       // Set the values of the initial states to determinate values - no direct manipulation of the state
       this.setState({
         temperature: data.main.temp,
