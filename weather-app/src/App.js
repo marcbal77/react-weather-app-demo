@@ -20,6 +20,7 @@ class App extends React.Component {
     country: undefined,
     humidity: undefined,
     description: undefined,
+    wind: undefined,
     error: undefined
   }
 
@@ -34,12 +35,15 @@ class App extends React.Component {
     //prevent breaking app when empty state exists in front end and button is clicked
     if (city && country) {
       // Set the values of the initial states to determinate values - no direct manipulation of the state
+      console.log(data);
+      console.log(data.wind.speed);
       this.setState({
         temperature: data.main.temp,
         city: data.name,
         country: data.sys.country,
         humidity: data.main.humidity,
         description: data.weather[0].description,
+        wind: data.wind.speed,
         error: ""
       });
     } else {
@@ -50,6 +54,7 @@ class App extends React.Component {
         country: undefined,
         humidity: undefined,
         description: undefined,
+        wind: undefined,
         error: "Please enter a proper value"
       });      
     }
@@ -74,6 +79,7 @@ class App extends React.Component {
                     country={this.state.country}
                     humidity={this.state.humidity}
                     description={this.state.description}
+                    wind={this.state.wind}
                     error={this.state.error}
                   />                  
                 </div>

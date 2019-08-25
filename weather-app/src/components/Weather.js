@@ -10,17 +10,22 @@ const Weather = props => (
 		}
 		{ 
 			props.temperature && <p className="weather__key"> Temperature: 
-				<span className="weather__value"> { ((props.temperature)*1.8 + 32) }</span>
+				<span className="weather__value"> { ((props.temperature)*1.8 + 32).toFixed(1) + ' \u00b0F' }</span>
 			</p>
 		}
 		{ 
 			props.humidity && <p className="weather__key"> Humidity: 
-				<span className="weather__value"> { props.humidity }</span>
+				<span className="weather__value"> { props.humidity + "%" }</span>
 			</p> 
 		}
 		{ 
 			props.description && <p className="weather__key"> Conditions: 
 				<span className="weather__value"> { props.description }</span>
+			</p> 
+		}
+		{
+			props.wind && <p className="weather__key"> Wind: 
+				<span className="weather__value"> { props.wind + " m/h"}</span>
 			</p> 
 		}
 		{ 
