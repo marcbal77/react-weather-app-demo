@@ -32,6 +32,15 @@ class App extends React.Component {
     const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
     const data = await api_call.json();
 
+//destructure getweather
+  //getWeather = async ({ e: target }) => {
+  //  e.preventDefault();
+  //  const { city, country } = target.elements
+  //
+  //  const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
+  //  const data = await api_call.json();
+  //}
+
     //prevent breaking app when empty state exists in front end and button is clicked
     if (city && country) {
       // Set the values of the initial states to determinate values - no direct manipulation of the state

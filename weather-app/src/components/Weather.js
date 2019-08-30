@@ -1,6 +1,7 @@
-//Import React
+//Import the react object from react package from package.json
 import React from "react";
 
+// Define Weather Constant Full of Objects
 const Weather = props => (
 	<div className="weather__info">
 		{ 

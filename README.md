@@ -6,6 +6,9 @@ Creating a weather app with react using "Create React App" for dependencies
 
 Inside that directory, you can run several commands:
 
+  npm start for non-production
+
+  or, if using yarn (include yarn lock and remove npm lock):
   yarn start
     Starts the development server.
 
