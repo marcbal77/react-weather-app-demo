@@ -25,3 +25,10 @@ Begin by typing:
   yarn start
 
 ```
+
+```
+Note: there are multiple limitations in the src code, notably:
+* The app will crash with an improper input (Country Code/City)
+* The app is not responsive and not made for mobile
+* A list of additional features to build: such as menu drop down, past searches...
+```
